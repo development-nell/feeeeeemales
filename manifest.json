@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Ferengi Identifier",
+	"version": "1.0",
+	"description": "Detects and attempts to accurately label internet text perhaps written by a ferengi.",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"css": ["style.css"],
+			"run_at": "document_end"
+		}
+	],
+	"web_accessible_resources":["images/females-2.png"]
+
+}
+
