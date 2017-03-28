@@ -2,8 +2,7 @@
 walk(document.body);
 
 document.addEventListener("DOMSubtreeModified", function(event){
-//		console.log(event);
-  //      walk(document.body);
+	// TODO: get this to work properly
 });
 
 function walk(node) 
